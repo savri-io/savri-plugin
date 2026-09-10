@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "savri": {
+      "type": "streamable-http",
+      "url": "https://savri.io/api/mcp"
+    }
+  }
+}

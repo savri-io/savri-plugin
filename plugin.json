@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "savri",
+  "version": "1.0.0",
+  "description": "Ask about your website visitors, traffic sources, pages, goals and funnels using your own Savri analytics data.",
+  "author": {
+    "name": "Savri",
+    "email": "hello@savri.io",
+    "url": "https://savri.io"
+  },
+  "homepage": "https://savri.io/docs/connectors",
+  "repository": "https://github.com/savri-io/savri-plugin",
+  "license": "MIT",
+  "keywords": ["analytics", "web-analytics", "traffic", "conversions", "mcp", "savri"]
+}
