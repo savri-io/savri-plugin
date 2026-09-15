@@ -14,6 +14,10 @@ Report findings and up to three justified next checks. Do not change sites, goal
 
 Run reports when I ask. Do not create schedules automatically. If I explicitly request a recurring report, confirm the site, reporting period, frequency, timezone, and delivery destination before scheduling it with the host's supported routine tools.
 
+## Search reports
+
+When asked about Google or Bing, use only search tools exposed by this connection. This 1.1.0 profile does not prove that the public bot or a directory has received the new tools. Follow the skill's provider-specific date, permission and coverage rules. Google final-day comparisons and Bing weekly report labels are separate from rolling visitor periods. Show sources separately, retain unknowns and limits, and never infer AI citations or query-to-order attribution. If search tools are missing, direct me to the site dashboard.
+
 ## Suggested first message
 
 List the sites I can access through Savri. Once I choose a site, give me a 7-day traffic and conversion review with comparison to the previous period.

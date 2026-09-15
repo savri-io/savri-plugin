@@ -6,6 +6,20 @@ Connect your own [Savri](https://savri.io) account and ask about visitors, traff
 
 This [Agent Plugin](https://agent-plugins.org) packages Savri's hosted MCP connection and a web analytics skill. It runs no local server and contains no credentials. Cursor supports the Agent Plugins format. Marketplace approval and end-to-end Grok Bot compatibility are separate checks; this source repository does not imply a published marketplace listing.
 
+## Search reports (1.1.0)
+
+Remote MCP 1.1.0 provides 27 tools, including eight read-only Google/Bing reports. Package distribution and each directory's discovery/review are separate steps. Check the tools exposed by your installed client; this repository does not establish marketplace availability.
+
+Connect Google Search Console or Bing Webmaster Tools in the site dashboard from Basic. Google uses the site's shared connection; Bing uses your own connection per site. The hosted OAuth connection needs no API key. The separate local `@savri/mcp` package requires an account API key and API access from Growth.
+
+Search tools are `savri_get_gsc_overview`, `savri_get_gsc_queries`, `savri_get_gsc_pages`, `savri_get_gsc_trend`, `savri_get_bing_overview`, `savri_get_bing_queries`, `savri_get_bing_pages`, and `savri_get_bing_trend`. Check which tools your client actually exposes. If these are missing, use the dashboard; do not infer an empty report.
+
+- Google uses final days in Pacific Time, exact page/query filters, optional country/device and equal-length comparisons. Limited candidate rows are not a complete query history; missing values remain unknown.
+- Bing daily traffic and weekly Web query/page reports have different coverage. Select returned report dates without inventing week boundaries. Country/device filters are unsupported.
+- These reports do not link a query to a person or order and do not provide separate AI citation counts. Keep sources and periods separate.
+
+Guides: [Google](https://savri.io/docs/gsc), [Bing](https://savri.io/docs/bing), [API contract](https://savri.io/docs/public-api#search-reports).
+
 ## Requirements
 
 - A Savri account with access to the website you want to analyze.
@@ -40,8 +54,9 @@ That manual entry connects the server; it does not install the packaged skill. R
 - "Compare visitors to example.com over the last 7 days with the previous period."
 - "Which pages and traffic sources brought the most visitors?"
 - "Review the existing goals and funnels for example.com."
+- "Show Google queries for example.com over the last seven final days, then show Bing’s latest weekly queries separately with actual coverage."
 
-The skill selects a real site ID, keeps periods consistent, distinguishes observations from explanations, and avoids treating outbound clicks as purchases. Available periods are rolling `7d`, `30d`, and `90d`.
+The skill selects a real site ID, keeps periods consistent, distinguishes observations from explanations, and avoids treating outbound clicks as purchases. Visitor analytics use rolling `7d`, `30d`, and `90d`. Google and Bing use the separate date contracts above.
 
 ## Permissions and data
 

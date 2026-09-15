@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "savri",
-  "version": "1.0.0",
-  "description": "Ask about your website visitors, traffic sources, pages, goals and funnels using your own Savri analytics data.",
+  "version": "1.1.0",
+  "description": "Explore your Savri analytics and connected Google Search Console and Bing Webmaster Tools reports, with source-specific dates and permissions.",
   "author": {
     "name": "Savri",
     "email": "hello@savri.io",
@@ -11,5 +11,14 @@
   "homepage": "https://savri.io/docs/connectors",
   "repository": "https://github.com/savri-io/savri-plugin",
   "license": "MIT",
-  "keywords": ["analytics", "web-analytics", "traffic", "conversions", "mcp", "savri"]
+  "keywords": [
+    "analytics",
+    "web-analytics",
+    "traffic",
+    "conversions",
+    "mcp",
+    "savri",
+    "google-search-console",
+    "bing-webmaster-tools"
+  ]
 }
