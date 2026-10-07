@@ -1,5 +1,30 @@
 # Distribution history
 
+## 2026-10-07, Codex: Claude guided-start adapter
+
+Aaron requested the latest pedagogical workflow in Claude as well as the
+existing connector listing update through Anthropic's established email
+thread. Added `claude/` with Claude's manifest and remote HTTP connector,
+the shared guided-start skill with only its host context paragraph adapted,
+installation instructions and MIT license. Portable root files and existing
+`v1.2.1` remain unchanged. Same MCP URL, no new server or authentication.
+
+Claude CLI strict manifest validation: passed with zero warnings/errors.
+Skill frontmatter validation: passed (Python UTF-8 mode on Windows).
+Five-file archive integrity and canonical-skill derivation checked by the
+build script. Intended public artifact: `claude-v1.2.1`, attached
+`savri-claude-plugin-1.2.1.zip`. Publication receipt is in the source repo's
+`docs/mcp-listings/claude-guided-start-2026-10-07.md`.
+
+Actual Claude installation remains unverified: the Chrome extension's
+claude.ai permission prompt timed out. Aaron has been asked to allow access.
+Anthropic maintains the existing connector listing through the established
+mail thread; a source release is not an updated directory entry.
+
+Next: send the concrete listing/skill update in that thread and verify a
+fresh Claude installation when browser access is available. No new scheduled
+follow-up or historical Todoist task is opened.
+
 ## 2026-10-07, Codex: guided start source published, ChatGPT in review
 
 Published portable Agent Plugin 1.2.0 (`663c75c`, annotated `v1.2.0`),

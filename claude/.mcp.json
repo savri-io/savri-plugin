@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "savri": { "type": "http", "url": "https://savri.io/api/mcp" }
+  }
+}
