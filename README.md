@@ -6,7 +6,11 @@ Connect your own [Savri](https://savri.io) account and ask about visitors, traff
 
 This [Agent Plugin](https://agent-plugins.org) packages Savri's hosted MCP connection and a web analytics skill. It runs no local server and contains no credentials. Cursor supports the Agent Plugins format. Marketplace approval and end-to-end Grok Bot compatibility are separate checks; this source repository does not imply a published marketplace listing.
 
-## Guided start (1.2.0)
+## Guided start (1.2.1)
+
+Version 1.2.1 preserves the existing OpenAI package identity and verified
+publisher when uploading to the same Savri directory entry. The portable
+Agent Plugin format, hosted endpoint and analytics workflow are unchanged.
 
 Adds `savri_get_setup_status`, `savri_save_business_profile` and
 `savri_record_start_feedback` (30 remote tools in total). The shared status

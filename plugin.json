@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-  "name": "savri",
-  "version": "1.2.0",
+  "name": "app-6a92b83f356881918b51987e6312ab4a",
+  "version": "1.2.1",
   "description": "Check website measurement, understand booking interest and sales, and choose content using Savri analytics and connected search reports.",
   "author": {
     "name": "Savri",
@@ -15,8 +15,8 @@
         "displayName": "Savri",
         "shortDescription": "Website data and next steps",
         "longDescription": "Check measurement and access, review website traffic and connected search reports, and use the available evidence to understand conversions or draft content. Each user connects their own account.",
-        "developerName": "Savri",
-        "category": "Productivity",
+        "developerName": "Value Unlimited",
+        "category": "Data & Analytics",
         "websiteURL": "https://savri.io",
         "supportURL": "https://savri.io/docs/connectors/chatgpt#first-answer",
         "privacyPolicyURL": "https://savri.io/privacy",
