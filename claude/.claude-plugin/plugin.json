@@ -1,7 +1,7 @@
 {
   "name": "savri",
   "displayName": "Savri",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Check website measurement, understand booking interest and sales, and draft content using Savri analytics and connected Google and Bing reports.",
   "author": { "name": "Savri", "email": "hello@savri.io", "url": "https://savri.io" },
   "homepage": "https://savri.io/docs/connectors/claude",

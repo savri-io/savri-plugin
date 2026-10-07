@@ -1,5 +1,30 @@
 # Distribution history
 
+## 2026-10-07, Codex: Claude 1.2.2 after actual client tests
+
+Installed 1.2.1 through claude.ai's plugin upload and connected the existing
+Savri directory connector through OAuth. The skill and new guided-start/
+Google/Bing tools loaded, although the directory still lists the old 15 tools.
+Tests found an overly technical empty-data answer and an unsafe suggestion
+to divide unrelated bookings by outbound clicks into a conversion rate.
+
+Claude 1.2.2 adds concise guidance for immediate business help, supported
+attribution and compatible denominators. Four fresh Claude conversations
+verified booking help, sales limitations, an actual article draft and the
+Shopify/external-booking boundaries. These used an isolated empty test site
+and a fictional Shopify scenario, not real customer results. Native 1.2.2
+was installed; strict manifest/skill checks and archive integrity passed.
+
+Package source is published as `claude-v1.2.2` with an installable ZIP;
+the existing portable 1.2.1/OpenAI submission and server are unchanged.
+Anthropic's listing update is handled through the established email thread.
+Detailed timestamps, release hashes, test links and cleanup receipts are in
+`analytics-value/docs/mcp-listings/claude-guided-start-2026-10-07.md`.
+
+Next: Anthropic updates the existing listing and confirms its distribution
+route for the bundled skill; verify the public listing on their response.
+No recurring follow-up or reopening of historical Todoist work.
+
 ## 2026-10-07, Codex: Claude guided-start adapter
 
 Aaron requested the latest pedagogical workflow in Claude as well as the

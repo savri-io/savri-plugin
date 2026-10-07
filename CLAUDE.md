@@ -13,9 +13,11 @@ Full installation from the updated public listing remains to be verified.
 
 Claude adapter source: `../analytics-value/packages/claude-plugin`, built
 by `scripts/prepare-claude-plugin.mjs` from the shared skill. Distribute in
-`claude/`, with separate `claude-v1.2.1` tag/ZIP. Only the host context
-paragraph differs; preserve the portable root and its existing release tags.
+`claude/`, with separate `claude-v1.2.2` tag/ZIP. Host context and short
+guidance from actual Claude tests adapt the shared workflow. Preserve the
+portable root and its existing release tags.
 Anthropic listing edits use the established mail thread. Publishing this
-adapter does not prove installation in Claude or directory publication.
+adapter does not prove directory publication. Private Claude installation
+1.2.2 and four fresh guided conversations verified; listing edits sent by mail.
 
 Session reports belong in [docs/DRIFT.md](docs/DRIFT.md), newest first.

@@ -7,8 +7,8 @@ skill and uses the existing Savri connector with your own account.
 
 ## Install and connect
 
-Download **savri-claude-plugin-1.2.1.zip** from the
-[Claude release](https://github.com/savri-io/savri-plugin/releases/tag/claude-v1.2.1).
+Download **savri-claude-plugin-1.2.2.zip** from the
+[Claude release](https://github.com/savri-io/savri-plugin/releases/tag/claude-v1.2.2).
 On claude.ai, open **Customize > Plugins > Add > Upload plugin** and select
 that ZIP. Open the plugin's **Connectors** tab and connect Savri through
 the normal sign-in flow. If you already use the Savri directory connector,
@@ -46,8 +46,11 @@ Sharing this package shares no account access. Each user connects separately.
 
 ## Release and verification
 
-Version 1.2.1 uses the guided workflow from the portable Savri plugin, with
-the context paragraph adapted for Claude. The package and skill can be
+Version 1.2.2 uses the guided workflow from portable Savri 1.2.1, with
+Claude context guidance and corrections from actual Claude client tests:
+provide useful business help even without traffic data, avoid promising
+unsupported attribution, and do not divide unrelated booking and click
+totals into a conversion rate. The package and skill can be
 validated locally; that does not establish installation in your Claude
 account or availability through Anthropic's public directory. Directory
 metadata is maintained separately through our existing Anthropic listing.
