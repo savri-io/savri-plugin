@@ -1,14 +1,37 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "savri",
-  "version": "1.1.0",
-  "description": "Explore your Savri analytics and connected Google Search Console and Bing Webmaster Tools reports, with source-specific dates and permissions.",
+  "version": "1.2.0",
+  "description": "Check website measurement, understand booking interest and sales, and choose content using Savri analytics and connected search reports.",
   "author": {
     "name": "Savri",
     "email": "hello@savri.io",
     "url": "https://savri.io"
   },
-  "homepage": "https://savri.io/docs/connectors",
+  "homepage": "https://savri.io/docs/connectors/chatgpt#first-answer",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Savri",
+        "shortDescription": "Website data and next steps",
+        "longDescription": "Check measurement and access, review website traffic and connected search reports, and use the available evidence to understand conversions or draft content. Each user connects their own account.",
+        "developerName": "Savri",
+        "category": "Productivity",
+        "websiteURL": "https://savri.io",
+        "supportURL": "https://savri.io/docs/connectors/chatgpt#first-answer",
+        "privacyPolicyURL": "https://savri.io/privacy",
+        "termsOfServiceURL": "https://savri.io/terms",
+        "defaultPrompt": [
+          "Help me get more bookings or enquiries from my website.",
+          "Help me understand how my website contributes to sales.",
+          "What content should I write next based on my website data?"
+        ],
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      },
+      "onboardingSkill": "./skills/web-analytics/SKILL.md"
+    }
+  },
   "repository": "https://github.com/savri-io/savri-plugin",
   "license": "MIT",
   "keywords": [

@@ -6,9 +6,32 @@ Connect your own [Savri](https://savri.io) account and ask about visitors, traff
 
 This [Agent Plugin](https://agent-plugins.org) packages Savri's hosted MCP connection and a web analytics skill. It runs no local server and contains no credentials. Cursor supports the Agent Plugins format. Marketplace approval and end-to-end Grok Bot compatibility are separate checks; this source repository does not imply a published marketplace listing.
 
-## Search reports (1.1.0)
+## Guided start (1.2.0)
 
-Remote MCP 1.1.0 provides 27 tools, including eight read-only Google/Bing reports. Package distribution and each directory's discovery/review are separate steps. Check the tools exposed by your installed client; this repository does not establish marketplace availability.
+Adds `savri_get_setup_status`, `savri_save_business_profile` and
+`savri_record_start_feedback` (30 remote tools in total). The shared status
+service distinguishes connection/configuration from observed measurement and
+controlled tests. Event/page/crawler results are bounded samples with explicit
+limits. Google/Bing report checks are requested only when needed; Bing remains
+personal to the signed-in user.
+
+The three starter prompts cover booking enquiries, sales and content ideas.
+The skill continues to a supported business answer and a draft in the host chat
+when requested. Saving business context requires an explicit request and site
+editor/owner plus client write permission. Analysis does not save profiles or
+create goals. Feedback records the user's explicit answer, never inferred success.
+
+`extensions.com.openai.interface.defaultPrompt` and `onboardingSkill` follow
+the [OpenAI submission format](https://developers.openai.com/plugins/deploy/submission).
+The portable manifest and MCP endpoint alone do not update the released ChatGPT
+catalog package. Server release, package distribution/review, directory tool
+refresh and an installed-client test are separate steps. This package requires
+remote 1.2.0 or later. No automatic conversation on installation
+is promised. [First question and agency handover](https://savri.io/docs/connectors/chatgpt#first-answer).
+
+## Existing search reports
+
+Remote MCP 1.1.0 introduced eight read-only Google/Bing reports, also included in 1.2.0. Package distribution and each directory's discovery/review are separate steps. Check the tools exposed by your installed client; this repository does not establish marketplace availability.
 
 Connect Google Search Console or Bing Webmaster Tools in the site dashboard from Basic. Google uses the site's shared connection; Bing uses your own connection per site. The hosted OAuth connection needs no API key. The separate local `@savri/mcp` package requires an account API key and API access from Growth.
 
