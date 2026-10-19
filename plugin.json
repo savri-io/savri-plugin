@@ -1,10 +1,10 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "app-6a92b83f356881918b51987e6312ab4a",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "description": "Check website measurement, understand booking interest and sales, and choose content using Savri analytics and connected search reports.",
   "author": {
-    "name": "Savri",
+    "name": "Value Unlimited",
     "email": "hello@savri.io",
     "url": "https://savri.io"
   },
@@ -14,7 +14,7 @@
       "interface": {
         "displayName": "Savri",
         "shortDescription": "Website data and next steps",
-        "longDescription": "Check measurement and access, review website traffic and connected search reports, and use the available evidence to understand conversions or draft content. Each user connects their own account.",
+        "longDescription": "Understand one or several authorized websites using traffic, goals and connected Google and Bing reports. Review affiliate commission with its matching quality and coverage, or preview alerts when requested. Sources keep their dates, currencies and limitations. Each user connects their own account.",
         "developerName": "Value Unlimited",
         "category": "Data & Analytics",
         "websiteURL": "https://savri.io",
@@ -22,9 +22,9 @@
         "privacyPolicyURL": "https://savri.io/privacy",
         "termsOfServiceURL": "https://savri.io/terms",
         "defaultPrompt": [
-          "Help me get more bookings or enquiries from my website.",
-          "Help me understand how my website contributes to sales.",
-          "What content should I write next based on my website data?"
+          "How do people find my website, which contact goals are recorded, and what should I improve first?",
+          "Compare my selected websites over 30 completed days, with available Google, Bing and Savri data.",
+          "Which pages have affiliate clicks and approved commission, and where is evidence missing?"
         ],
         "composerIcon": "./assets/icon.png",
         "logo": "./assets/icon.png"

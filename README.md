@@ -6,7 +6,33 @@ Connect your own [Savri](https://savri.io) account and ask about visitors, traff
 
 This [Agent Plugin](https://agent-plugins.org) packages Savri's hosted MCP connection and a web analytics skill. It runs no local server and contains no credentials. Cursor supports the Agent Plugins format. Marketplace approval and end-to-end Grok Bot compatibility are separate checks; this source repository does not imply a published marketplace listing.
 
-## Guided start (1.2.1)
+## Portfolio, affiliate and alerts (1.3.0)
+
+This package keeps the existing plugin identity and uses Value Unlimited
+as publisher. It is not evidence of a released directory update. Its skill covers
+explicit selections across authorized sites, saved business context, affiliate
+commission/matching/coverage and requested alert previews or changes. A domain,
+sales objective or platform alone does not classify a site as merchant e-commerce.
+
+The corresponding remote 1.3.0 and npm 0.6.0 expose 36 tools. The six additions
+since the previously distributed package are `savri_get_affiliate_report` and
+`savri_get_alerts`, `savri_preview_alert`, `savri_save_alert`,
+`savri_disable_alert`, `savri_delete_alert`. Discover actual installed tools;
+missing tools mean unavailable client functionality, not zero activity.
+
+`savri_get_stats` accepts optional `completed_days:true` for exact completed UTC
+days, equal previous periods and explicit coverage. Missing aggregate dates and
+zero-baseline percentages remain unknown; server 1.3.0 also uses completed dates for old stats calls while retaining their response format.
+Google/Bing and page/source reports keep their own dates. Affiliate figures use
+the report's display decimals and separate currencies, statuses and match classes.
+An analysis never activates alerts or saves a profile. Activation requires the
+recipient's own consent, edit/write rights and the site's payer entitlement.
+
+The canonical skill also supplies the Claude adapter. Its package, the hosted
+server, directory discovery and actual installed-client verification are distinct
+release steps. This package requires hosted server 1.3.0 or later.
+
+## Guided start (previous 1.2.1)
 
 Version 1.2.1 preserves the existing OpenAI package identity and verified
 publisher when uploading to the same Savri directory entry. The portable
@@ -83,7 +109,7 @@ That manual entry connects the server; it does not install the packaged skill. R
 - "Review the existing goals and funnels for example.com."
 - "Show Google queries for example.com over the last seven final days, then show Bing’s latest weekly queries separately with actual coverage."
 
-The skill selects a real site ID, keeps periods consistent, distinguishes observations from explanations, and avoids treating outbound clicks as purchases. Visitor analytics use rolling `7d`, `30d`, and `90d`. Google and Bing use the separate date contracts above.
+The skill selects real site IDs, preserves source dates, distinguishes observations from explanations, and avoids treating outbound clicks as purchases. Prefer completed `7d`, `30d`, or `90d` when the installed schema exposes that option. Older servers can retain rolling periods; follow the dates actually returned. Google and Bing use the separate date contracts above.
 
 ## Permissions and data
 

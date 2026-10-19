@@ -1,5 +1,17 @@
 # Distribution history
 
+## 2026-10-19, Codex: stage 07 plugin 1.3.0
+
+Aaron authorized publication of the reviewed stage 07 packages. Portable 1.3.0
+and the separately generated Claude adapter now share the corrected workflow:
+completed traffic periods, explicit portfolio selections, affiliate matching
+quality beside amounts, and requested alert actions. Both use Value Unlimited.
+The existing MCP endpoint and plugin identity are preserved. Manifest schemas,
+archive contents and shared-skill derivation passed. Public source publication
+does not establish OpenAI review approval or an installed client version.
+The OpenAI update uses the existing listing; installed-client evidence follows.
+P1 stays off and stage 08 is not started. No customer configuration is changed.
+
 ## 2026-10-07, Codex: Claude 1.2.2 after actual client tests
 
 Installed 1.2.1 through claude.ai's plugin upload and connected the existing
