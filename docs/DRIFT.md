@@ -1,5 +1,22 @@
 # Distribution history
 
+## 2026-10-19, Codex: installed client questions and Anthropic update
+
+Claude 1.3.0 completed website, affiliate and two-site portfolio questions
+with the shared skill actually loaded. Traffic dates and figures matched;
+affiliate associations were labeled assessed beside the amounts. A free-form
+date-offset error and overconfident causal explanations were corrected in a
+separate model self-check; originals are retained, not labeled flawless.
+No business settings or permanent tool permissions were changed.
+
+ChatGPT's existing 1.1.0 listing now discovers the new affiliate/alert tools;
+its updated skill 1.3.0 remains In review. The installed 1.3.0 questions must
+be repeated after review. On Aaron's explicit instruction, the established
+Anthropic thread received the 36-tool/1.3.0/Value Unlimited update at 19:18 CEST.
+Sent body and headers verified; public listing remains older. No new listing.
+Next: verify OpenAI's reviewed install and Anthropic's listing/skill route
+when the respective update is available. No recurring monitoring was created.
+
 ## 2026-10-19, Codex: installable Claude 1.3.0 and distribution receipts
 
 The existing OpenAI listing now has 36 Published tools and version 1.3.0
