@@ -7,10 +7,7 @@ skill and uses the existing Savri connector with your own account.
 
 ## Install and connect
 
-The local candidate is **savri-claude-plugin-1.3.0.zip**; it is not yet a
-published release. The previous
-[Claude release](https://github.com/savri-io/savri-plugin/releases/tag/claude-v1.2.2)
-contains version 1.2.2.
+Download [Savri for Claude 1.3.0 (ZIP)](https://raw.githubusercontent.com/savri-io/savri-plugin/main/releases/savri-claude-plugin-1.3.0.zip).
 On claude.ai, open **Customize > Plugins > Add > Upload plugin** and select
 that ZIP. Open the plugin's **Connectors** tab and connect Savri through
 the normal sign-in flow. If you already use the Savri directory connector,
@@ -48,7 +45,7 @@ Sharing this package shares no account access. Each user connects separately.
 
 ## Release and verification
 
-Candidate 1.3.0 uses the canonical portable 1.3.0 workflow for several sites,
+Version 1.3.0 uses the canonical portable 1.3.0 workflow for several sites,
 affiliate commission, data coverage and requested alerts. It retains
 Claude context guidance and corrections from actual Claude client tests:
 provide useful business help even without traffic data, avoid promising
@@ -58,7 +55,7 @@ validated locally; that does not establish installation in your Claude
 account or availability through Anthropic's public directory. Directory
 metadata is maintained separately through our existing Anthropic listing.
 
-Completed traffic comparisons require the reviewed remote 1.3.0. The hosted
+Completed traffic comparisons use the published remote 1.3.0. The hosted
 endpoint may expose newer tools than the installed skill; inspect the actual
 schema. Keep site selection, payer rights, source dates, currencies and
 match quality visible. Analysis does not activate alerts or save profiles.

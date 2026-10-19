@@ -1,5 +1,23 @@
 # Distribution history
 
+## 2026-10-19, Codex: installable Claude 1.3.0 and distribution receipts
+
+The existing OpenAI listing now has 36 Published tools and version 1.3.0
+In review. Public listing 1.1.0 remains current until approval. The older
+1.2.1 review was replaced. The live server correctly marks disabling an
+alert as destructive because it cancels queued delivery.
+
+Claude's existing private 1.2.2 installation was replaced by 1.3.0; actual
+UI shows Value Unlimited, one skill and one connector. Existing OAuth access
+is preserved. Read-only QA uses only the two authorized owner sites.
+The downloadable ZIP in releases/ has the same manifest, connector, skill
+and license as that installed build; only README changes candidate wording
+to published download instructions. ZIP SHA256:
+30efd1522c7e31938cadc15e0fbdcfbdcda6b983d2becbfaff1ca085ec09302c.
+Archive integrity is verified before publication through publicera.mjs.
+Anthropic's public listing remains older and needs the existing mail route.
+No new test duplicate or permanent tool permission is introduced.
+
 ## 2026-10-19, Codex: stage 07 plugin 1.3.0
 
 Aaron authorized publication of the reviewed stage 07 packages. Portable 1.3.0
