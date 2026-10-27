@@ -21,9 +21,12 @@ Claude ZIP differs from the installed QA ZIP only in README; skill, manifest,
 MCP and license are identical. Distribution ZIP SHA256:
 b00a6a1e73858edc775cde09649a5af34ebe95c7b02ae4732835ded40c9408c8.
 The uploaded OpenAI ZIP likewise preceded the explanatory README update;
-skill and manifest are unchanged. Server/npm were not republished.
+skill and manifest are unchanged. Server contract/npm versions are unchanged.
 
-Source/package publication uses repolage/publicera and preserves older ZIPs.
+Source/package publication completed through repolage/publicera as `652c256`.
+Public manifests, both skills and the ZIP returned HTTP 200 and matched
+the verified content/hashes. Older ZIPs remain available. Source/client
+evidence is published in analytics-value as `85077a4e`.
 Anthropic's 15 tools/Digisol AB listing and unconfirmed skill route remain
 external. No new email or application. Recommendation: targeted client
 quality/evidence work, while pilot preparation uses reviewed conclusions.
