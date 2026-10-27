@@ -7,7 +7,7 @@ skill and uses the existing Savri connector with your own account.
 
 ## Install and connect
 
-Download [Savri for Claude 1.3.0 (ZIP)](https://raw.githubusercontent.com/savri-io/savri-plugin/main/releases/savri-claude-plugin-1.3.0.zip).
+Download [Savri for Claude 1.3.1 (ZIP)](https://raw.githubusercontent.com/savri-io/savri-plugin/main/releases/savri-claude-plugin-1.3.1.zip).
 On claude.ai, open **Customize > Plugins > Add > Upload plugin** and select
 that ZIP. Open the plugin's **Connectors** tab and connect Savri through
 the normal sign-in flow. If you already use the Savri directory connector,
@@ -45,7 +45,7 @@ Sharing this package shares no account access. Each user connects separately.
 
 ## Release and verification
 
-Version 1.3.0 uses the canonical portable 1.3.0 workflow for several sites,
+Version 1.3.1 uses the canonical portable 1.3.1 workflow for several sites,
 affiliate commission, data coverage and requested alerts. It retains
 Claude context guidance and corrections from actual Claude client tests:
 provide useful business help even without traffic data, avoid promising
@@ -54,6 +54,11 @@ totals into a conversion rate. The package and skill can be
 validated locally; that does not establish installation in your Claude
 account or availability through Anthropic's public directory. Directory
 metadata is maintained separately through our existing Anthropic listing.
+
+The 1.3.1 update clarifies incomplete source windows, unknown business types,
+repeated genuine clicks and hypotheses versus verified causes. Installed-client
+tests showed better handling of click evidence, but some answers still overstated
+causes. Check causal explanations and source boundaries before acting on a report.
 
 Completed traffic comparisons use the published remote 1.3.0. The hosted
 endpoint may expose newer tools than the installed skill; inspect the actual

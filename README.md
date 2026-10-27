@@ -6,6 +6,15 @@ Connect your own [Savri](https://savri.io) account and ask about visitors, traff
 
 This [Agent Plugin](https://agent-plugins.org) packages Savri's hosted MCP connection and a web analytics skill. It runs no local server and contains no credentials. Cursor supports the Agent Plugins format. Marketplace approval and end-to-end Grok Bot compatibility are separate checks; this source repository does not imply a published marketplace listing.
 
+## Evidence handling (1.3.1)
+
+This skill update clarifies source dates and incomplete comparisons, unknown
+business types, repeated genuine clicks, and hypotheses versus verified causes.
+It follows actual installed-client tests. Model answers can still overstate a
+cause or omit a source boundary; check those conclusions against the returned
+evidence before using them to change measurement or business priorities.
+The hosted server remains 1.3.0 and npm remains 0.6.0.
+
 ## Portfolio, affiliate and alerts (1.3.0)
 
 This package keeps the existing plugin identity and uses Value Unlimited

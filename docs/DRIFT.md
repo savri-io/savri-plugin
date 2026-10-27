@@ -1,5 +1,33 @@
 # Distribution history
 
+## 2026-10-27, Codex: focused evidence-handling correction 1.3.1
+
+Actual 1.3.0 client questions exposed causal overstatements, unsupported
+business-type exclusion and incomplete-window comparisons. Canonical 1.3.1
+clarifies those limits and repeated genuine clicks versus duplicate senders.
+OpenAI approved and published 1.3.1 on the existing identity, Value Unlimited,
+36 Published tools. Installed skill content/source ID verified before tests.
+Claude's existing private upload was replaced by 1.3.1, Value Unlimited,
+with one skill/connector and existing OAuth. No duplicate remains.
+
+Five fresh questions were run per client before and after: 20 original
+answers retained in analytics-value/docs/impl/savri-produktlyft-2026-10/07-slutprov-2026-10-27/.
+Click explanations improved, but some model causal claims remain unsupported.
+ChatGPT's raw tool-result export is also incomplete. Stage 07 is partially
+complete, not signed off. No customer configuration or permanent permissions changed.
+
+Canonical/adapter derivation, schemas and ZIP integrity passed. Distributed
+Claude ZIP differs from the installed QA ZIP only in README; skill, manifest,
+MCP and license are identical. Distribution ZIP SHA256:
+b00a6a1e73858edc775cde09649a5af34ebe95c7b02ae4732835ded40c9408c8.
+The uploaded OpenAI ZIP likewise preceded the explanatory README update;
+skill and manifest are unchanged. Server/npm were not republished.
+
+Source/package publication uses repolage/publicera and preserves older ZIPs.
+Anthropic's 15 tools/Digisol AB listing and unconfirmed skill route remain
+external. No new email or application. Recommendation: targeted client
+quality/evidence work, while pilot preparation uses reviewed conclusions.
+
 ## 2026-10-19, Codex: installed client questions and Anthropic update
 
 Claude 1.3.0 completed website, affiliate and two-site portfolio questions
