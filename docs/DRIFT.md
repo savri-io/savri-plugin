@@ -20,8 +20,10 @@ unconfirmed. Public update stays in the existing email case; private upload
 does not update it. No reminder sent. Current matrix/evidence live in
 analytics-value/docs/impl/savri-produktlyft-2026-10/07-ai-och-pluginer.md.
 
-Publication is scoped with repolage/publicera; final commit recorded below
-after verification. No other work included.
+Published via repolage/publicera as **beb33e1**, ZIP integrity verified.
+Five public manifest/skill/ZIP artifacts fetched with HTTP 200 and matching
+content/hash. Analytics source/evidence ea10219a, plans 5d39915. Vercel READY
+on both domains; application/server code unchanged. No other work included.
 
 ## 2026-10-27, Codex: focused evidence-handling correction 1.3.1
 
