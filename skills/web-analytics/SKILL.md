@@ -7,6 +7,17 @@ description: Use Savri for one or several authorized websites: traffic, contact 
 
 Use the connected Savri MCP tools to answer from the user's actual analytics.
 
+## Evidence required in the final answer
+
+Lead with the supported business conclusion, then make its evidence easy to check:
+
+- Name selected, read and unread sites. Keep an unknown business type unknown.
+- Include a compact source table: report/metric, actual current and comparison dates, timezone, and coverage. Include goals, funnels, pages and referrers when used. Write "not returned" for missing boundaries or coverage; do not borrow another report's period. Sources with identical returned boundaries may share a row.
+- Any table or list connecting commission to a page, visit or channel must carry "exact", "assessed" or "unknown" in that row, column heading or item. Apply this to pending as well as approved amounts. Page-match evidence does not automatically establish an exact channel association. Put the currency and status with the amount; an introductory or closing caveat is insufficient.
+- Give up to three prioritized next steps per site. State the observed fact, any unverified explanation, and the check or action supported by that fact. Prefer a useful check over an unverified repair.
+
+Do this check before the first final answer; do not rely on a later correction. Remove any causal conclusion not supported by linked observations, even when the surrounding text contains a caveat.
+
 ## Start with the site and period
 
 1. Reuse a site ID already returned for the requested domain in this conversation. Otherwise call `savri_list_sites` without stats. Match domains to returned IDs. Ask which site only when ambiguous; never invent an ID. State the selected domains before reading their reports. An explicit selection is already authorization for its read; do not ask for redundant approval.
@@ -41,7 +52,7 @@ Use `savri_save_business_profile` only for an explicit save/change request. Pres
 
 ## First business answer and article drafts
 
-Continue from the check to the user's question instead of ending with a technical checklist. Use existing stats/pages/goals/funnel tools for the specific objective. Popular pages show attention, search reports show demand, events show observed steps and confirmed outcomes require their own evidence. A funnel supports its configured ordered steps, not a general claim that an article caused a booking. Do not invent page-to-order or query-to-person attribution.
+Continue from the check to the user's question instead of ending with a technical checklist. Use existing stats/pages/goals/funnel tools for the specific objective. Popular pages show page visits; search reports show recorded search visibility and clicks. Neither establishes purchase intent. Events show their defined observed steps, and confirmed outcomes require their own evidence. A funnel supports its configured ordered steps, not a general claim that an article caused a booking. Do not invent page-to-order or query-to-person attribution.
 
 For content ideas, use available page data and, when accessible, Google/Bing search reports. Recommend a topic with a concrete evidence-based reason and dates; label hypotheses. If the user also asks for an article, produce the draft in the host chat using available article/business material. If context is absent, ask only for the relevant article, audience or offer, or write a clearly limited draft without invented business claims. A suitable response includes the supported topic, a usable draft and the specific measurement limitation, not just instructions to write later. Do not build a new LLM service or publish automatically.
 
@@ -66,6 +77,8 @@ Do not invent tools for metrics that are not exposed. Distinguish missing data, 
 First inspect the tools actually available in this connection. Version 1.1.0 adds eight search reads; a directory snapshot may still expose only the older tools. If search tools are absent, explain that availability and link to the dashboard. Never invent or call an undiscovered tool.
 
 Google uses the site's shared connection; Bing uses the signed-in user's own connection for that site. The user connects the provider in the site dashboard from Basic. OAuth uses that search access; the separate npm/API-key path requires API access from Growth. Never choose another user's grant or request provider tokens in chat.
+
+Search-provider clicks and Savri visits are different measurements. Without a returned linkage and compatible coverage, their changes cannot quantify, bound or rule out the search contribution to a visit change. Do not subtract the changes or conclude that search "cannot explain", "explains only a small part" or "is not the cause" because its click change is numerically smaller. Present the changes separately and say the contribution is unknown. Partial data also cannot establish stability or improvement merely because it fails to establish decline.
 
 - Google: `savri_get_gsc_overview`, `savri_get_gsc_queries`, `savri_get_gsc_pages`, `savri_get_gsc_trend`. Use returned final data dates in Pacific Time. `period` supports `7d`, `30d`, `90d`, `12m`, `24m`, or use inclusive `from`/`to`. Unavailable history beyond roughly 16 months remains explicit. Comparisons require equal-length periods. Exact `page`/`query`, three-letter `country`, `device` and `type=web` follow the discovered schema.
 - Bing: `savri_get_bing_overview` and `savri_get_bing_trend` use optional `from`/`to` within available daily traffic. `savri_get_bing_queries` and `savri_get_bing_pages` use a returned `report_date` for weekly Web reports; queries can also use an exact `page` on the connected origin. Do not send Google period/compare/country/device filters to Bing. First retrieve the latest report if no valid report date is known.
@@ -104,7 +117,8 @@ Before sending the answer, check each conclusion against the returned evidence:
 
 - Show the exact dates, timezone and coverage for every source you use, including goals/funnels and rolling page/referrer reports. If a report supplies no exact boundaries, say so. Do not borrow the overview's dates. Describe date offsets from the returned endpoints, not from today's date. An incomplete source window cannot establish a decline against a complete window.
 - Different goal definitions are different measurements, not evidence of two installed click senders or duplicates. Repeated genuine clicks may count several times; many clicks from one visit do not prove inflated measurement. Missing property totals may reflect filters, limits or different windows: do not subtract incompatible reports to invent missing events.
-- A low traffic day, a zero goal or a path mismatch is a reason to check, not proof of an outage or its cause. Popular login pages do not identify which referrers belong to existing customers. A `qa` label or many pageviews does not prove test/bot traffic. State such explanations as hypotheses beside the claim and identify the evidence needed to distinguish them. Describe an ordered funnel's result without declaring its configuration broken solely because a page total differs.
+- A low traffic day, a zero goal or a path mismatch is a reason to check, not proof of an outage or its cause. Popular login pages do not identify which referrers belong to existing customers. A `qa` label or many pageviews does not prove test/bot traffic. State such explanations as hypotheses beside the claim and identify the evidence needed to distinguish them. A funnel's required order describes its definition, not why its observed count is zero. Without observed sequences, the reason is unknown: do not diagnose wrong ordering or prescribe rebuilding the funnel. First verify the intended journey and a recorded sequence against the configured steps.
+- Page visits to pricing or signup are observed attention, not proven purchase intent, purchases or registrations. Describe only the goal definitions actually read: no confirmed-enquiry goal is different from no contact-interest goal. Do not erase a click-interest goal when explaining the absence of confirmed outcomes.
 - Keep next steps conditional on those facts: verify measurement or inspect the named source before prescribing a repair. Do not infer the cause of pending commission or a normal approval delay from order ages or the first observed status timestamp.
 
 For a weekly review, use the overview with comparison, top pages, referrers, and existing goals. Summarize the largest supported changes and up to three practical next checks. Fetch funnel or event-property details only when they answer a specific follow-up. Do not fill gaps with plausible numbers or claim to have inspected data that a tool did not return.

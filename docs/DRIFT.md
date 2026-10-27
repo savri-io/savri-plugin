@@ -1,5 +1,28 @@
 # Distribution history
 
+## 2026-10-28, Codex: 1.3.2 evidence checks and fresh client verification
+
+Published 1.3.2 on the existing OpenAI identity, Value Unlimited, 36 tools.
+All five new GPT-6 chats loaded the new skill source and evidence rules.
+Claude private 1.3.2 replaces the existing upload with preserved OAuth;
+Opus 5.5 High used. This public ZIP is the exact installed private package:
+340be1c02dbf029d17e78a9e459219535b8fadef47e0bd12c09a743b57243128.
+
+Ten new original answers bring the total to 30. ChatGPT's real saved MCP
+results are now exported for all 15 chats, with redactions documented.
+Source-period, commission qualification and causal-inference instructions
+improved some answers, but Bing completeness and Claude R2 remain unreliable.
+Stage 07 is partially complete. Canonical/adapter/ZIP/schema checks passed.
+Server 1.3.0 and npm 0.6.0 unchanged; no new server release.
+
+Anthropic public listing remains 15 tools/Digisol AB, skill distribution
+unconfirmed. Public update stays in the existing email case; private upload
+does not update it. No reminder sent. Current matrix/evidence live in
+analytics-value/docs/impl/savri-produktlyft-2026-10/07-ai-och-pluginer.md.
+
+Publication is scoped with repolage/publicera; final commit recorded below
+after verification. No other work included.
+
 ## 2026-10-27, Codex: focused evidence-handling correction 1.3.1
 
 Actual 1.3.0 client questions exposed causal overstatements, unsupported
