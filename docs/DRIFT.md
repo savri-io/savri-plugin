@@ -1,5 +1,20 @@
 # Distribution history
 
+## 2026-11-05, Codex: 1.3.3 published and verified
+
+Portable **1.3.3 Published** on the existing OpenAI identity, **Value Unlimited**.
+Public catalog, actual ChatGPT installation/OAuth/read and both download ZIP
+hashes verified. Claude private **1.3.3** replaces the existing upload with
+one skill/connector and preserved ordinary OAuth. Installed skill matches the
+package after Claude normalizes YAML description quoting. Source **ce0daec**
+was published through publicera.mjs. Remote 1.3.1 and npm 0.6.1 are live;
+36 tools, no separate Ads feature. Onboarding delivery is complete.
+Anthropic public listing remains the separate existing email case.
+
+Evidence: analytics-value/docs/impl/ai-onboarding-2026-11-05/fixes/delivery-status.md.
+Onboarding Todoist 6hwGqQ4JRQ7CRxrv completed and reread. No further action
+within the scoped onboarding release; no new recurring follow-up.
+
 ## 2026-11-05, Codex: onboarding 1.3.3 release candidate prepared
 
 Portable and Claude 1.3.3 prepared from analytics-value's scoped candidate

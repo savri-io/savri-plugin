@@ -4,23 +4,15 @@ Källa: `../analytics-value/packages/agent-plugin`. Detta är det portabla
 Agent Plugin-formatet; konvertera inte till ett annat klientformat som bieffekt.
 Main, selektiv staging och bevara befintliga mcp.json, ikon och licens.
 
-## Current status 2026-10-28
+## Current status 2026-11-05
 
-Portable **1.3.2 Published** on the existing OpenAI identity, Value Unlimited,
-36 Published tools. All five fresh GPT-6 chats loaded the new skill source.
-Claude private **1.3.2** replaced the existing upload; one skill/connector,
-publisher Value Unlimited and OAuth preserved. Opus 5.5 High used.
-
-Thirty original client answers across 1.3.0/1.3.1/1.3.2 are retained.
-Actual saved ChatGPT MCP results are now exported for all 15 chats, with
-redactions documented. Some causal explanations improved; Bing completeness,
-Claude R2 and some evidence labels still prevent full stage-07 sign-off.
-Server 1.3.0/npm 0.6.0 unchanged. Canonical/adapter/ZIP/schema checks passed.
-Public Claude ZIP is the exact privately installed 1.3.2 package.
-
-Anthropic public listing remains 15 tools/Digisol AB; public skill delivery
-unconfirmed. The existing email case owns that update, separate from private
-uploads. No reminder/application sent. Pilot preparation may continue with
-reviewed examples; full status and evidence live in analytics-value's 07 report.
+Portable **1.3.3 Published** on the existing OpenAI identity, **Value Unlimited**.
+Public catalog, actual ChatGPT installation/OAuth/read and both download ZIP
+hashes verified. Claude private **1.3.3** replaces the existing upload with
+one skill/connector and preserved ordinary OAuth. Installed skill matches the
+package after Claude normalizes YAML description quoting. Source **ce0daec**
+was published through publicera.mjs. Remote 1.3.1 and npm 0.6.1 are live;
+36 tools, no separate Ads feature. Onboarding delivery is complete.
+Anthropic public listing remains the separate existing email case.
 
 Session reports belong in [docs/DRIFT.md](docs/DRIFT.md), newest first.
