@@ -1,5 +1,22 @@
 # Distribution history
 
+## 2026-11-05, Codex: onboarding 1.3.3 release candidate prepared
+
+Portable and Claude 1.3.3 prepared from analytics-value's scoped candidate
+c1a2f8a0. The separate Ads text/tool is excluded. Canonical skill and Claude
+adapter guide empty accounts to authorized installation, developer handoff
+or demo and keep account connection, site creation and measurement separate.
+README and the hosted Claude guide point to the same 1.3.3 download.
+
+Both package builders and official manifest schemas passed; 36 tools.
+OpenAI's existing Value Unlimited identity has a 1.3.3 draft with no findings,
+not submitted or published. Public version remains 1.3.2. Claude private
+plugin 1.3.2 is preserved while a separate synthetic connector is tested.
+Next: Codex completes actual Claude.ai acceptance and the scoped hosted
+release, then publishes these artifacts and verifies installed identity and
+versions. Existing OAuth connections and the separate Anthropic listing case
+remain intact. No additional publishing mandate is needed.
+
 ## 2026-10-28, Codex: 1.3.2 evidence checks and fresh client verification
 
 Published 1.3.2 on the existing OpenAI identity, Value Unlimited, 36 tools.

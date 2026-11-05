@@ -1,5 +1,7 @@
 # Savri for Claude
 
+Version 1.3.3 guides you from your first site to installation and a dated check of received visits. Use your own or an authorized client website, hand installation to its developer, or explore the demo. Requires hosted server 1.3.1 or later.
+
 Use Savri to check your website's measurement, understand booking interest
 and sales, choose content from actual site and search data, and draft an
 article when requested. This Claude plugin includes the guided analytics
@@ -7,7 +9,7 @@ skill and uses the existing Savri connector with your own account.
 
 ## Install and connect
 
-Download [Savri for Claude 1.3.2 (ZIP)](https://raw.githubusercontent.com/savri-io/savri-plugin/main/releases/savri-claude-plugin-1.3.2.zip).
+Download [Savri for Claude 1.3.3 (ZIP)](https://raw.githubusercontent.com/savri-io/savri-plugin/main/releases/savri-claude-plugin-1.3.3.zip).
 On claude.ai, open **Customize > Plugins > Add > Upload plugin** and select
 that ZIP. Open the plugin's **Connectors** tab and connect Savri through
 the normal sign-in flow. If you already use the Savri directory connector,

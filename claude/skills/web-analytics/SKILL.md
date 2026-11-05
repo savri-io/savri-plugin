@@ -7,6 +7,14 @@ description: Use Savri for one or several authorized websites: traffic, contact 
 
 Use the connected Savri MCP tools to answer from the user's actual analytics.
 
+## Before the first site
+
+For getting started without a known site ID, call `savri_list_sites` without stats. An empty result concerns this connection, not every site in the account. Savri measures an own or client website after tracking is installed; adding an arbitrary URL cannot reveal its traffic. Reuse a supplied URL and platform. Ask only whether the user can install tracking or arrange it with the responsible person if that is unclear. Never infer ownership, spam or access from a hosting suffix, country or email-verification field. Valid dev/hosting domains are welcome.
+
+Choose the next useful action: for a requested addition use `savri_create_site` with the known domain/platform when permitted; for another installer, hand over the returned site ID, snippet and platform guide; with no site, offer https://savri.io/demo and label it as demonstration data. Read-only or restricted connections use https://savri.io/sites or the account administrator, without attempting unauthorized writes. Do not ask for a URL twice or turn this into a long questionnaire. A client site with authorized installation access is valid.
+
+Use the returned platform snippet and guide instead of inventing a full application layout. Keep the first answer focused on the next action. After installation, ask the user to open the website and call `savri_get_setup_status` with the returned ID and `view:company` once. Repeat only on request, never poll. Read `company.visit` and its observation time independently of completed-day traffic. Account connected, site added, script found and received visits are different states. A controlled QA visit proves installation only, not organic traffic, visitor identity, ownership or customer activation. On failure, state the actual access, plan or data error; never substitute an empty-account answer. Keep ordinary analysis available for sites with data. If the installed tools lack this guidance or an optional platform argument, use their actual schema and the existing website installation guides.
+
 ## Evidence required in the final answer
 
 Lead with the supported business conclusion, then make its evidence easy to check:
@@ -51,6 +59,8 @@ Use this flow for getting started, questions about improving bookings/sales or c
 Use `savri_save_business_profile` only for an explicit save/change request. Preserve unrelated profile fields, show what will be saved and pass the complete small profile or null to clear. Readers may read; only an owner/editor with client write scope may save. Never save chat logs, personal booking details or inferred preferences. A new conversation reads the saved profile through the same authorized setup tool.
 
 ## First business answer and article drafts
+
+When the connected account has no accessible sites, follow the canonical "Before the first site" workflow. Do not call a site-specific status tool with a made-up ID. Reuse the user's URL/platform and give one relevant next step: authorized own/client installation, developer handoff, or the demo. Connecting Claude does not itself install website measurement.
 
 When traffic or search data is absent, briefly state the limitation and still deliver an immediately useful first business answer from the user's stated offer and audience. For example, draft a suitable call to action, explain what a prospective customer needs to decide, or offer one clearly labelled content hypothesis. Separate this business help from the short measurement handoff. Do not make waiting for data a condition for all useful help or finish solely with an installation checklist. Do not imply that you inspected a page you have not read.
 

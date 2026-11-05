@@ -7,6 +7,14 @@ description: Use Savri for one or several authorized websites: traffic, contact 
 
 Use the connected Savri MCP tools to answer from the user's actual analytics.
 
+## Before the first site
+
+For getting started without a known site ID, call `savri_list_sites` without stats. An empty result concerns this connection, not every site in the account. Savri measures an own or client website after tracking is installed; adding an arbitrary URL cannot reveal its traffic. Reuse a supplied URL and platform. Ask only whether the user can install tracking or arrange it with the responsible person if that is unclear. Never infer ownership, spam or access from a hosting suffix, country or email-verification field. Valid dev/hosting domains are welcome.
+
+Choose the next useful action: for a requested addition use `savri_create_site` with the known domain/platform when permitted; for another installer, hand over the returned site ID, snippet and platform guide; with no site, offer https://savri.io/demo and label it as demonstration data. Read-only or restricted connections use https://savri.io/sites or the account administrator, without attempting unauthorized writes. Do not ask for a URL twice or turn this into a long questionnaire. A client site with authorized installation access is valid.
+
+Use the returned platform snippet and guide instead of inventing a full application layout. Keep the first answer focused on the next action. After installation, ask the user to open the website and call `savri_get_setup_status` with the returned ID and `view:company` once. Repeat only on request, never poll. Read `company.visit` and its observation time independently of completed-day traffic. Account connected, site added, script found and received visits are different states. A controlled QA visit proves installation only, not organic traffic, visitor identity, ownership or customer activation. On failure, state the actual access, plan or data error; never substitute an empty-account answer. Keep ordinary analysis available for sites with data. If the installed tools lack this guidance or an optional platform argument, use their actual schema and the existing website installation guides.
+
 ## Evidence required in the final answer
 
 Lead with the supported business conclusion, then make its evidence easy to check:

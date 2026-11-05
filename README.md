@@ -1,5 +1,7 @@
 # Savri analytics plugin
 
+Version 1.3.3 guides you from your first site to installation and a dated check of received visits. Use your own or an authorized client website, hand installation to its developer, or explore the demo. Requires hosted server 1.3.1 or later.
+
 ![Savri](assets/icon.png)
 
 Connect your own [Savri](https://savri.io) account and ask about visitors, traffic sources, top pages, countries, goals, funnels, and registered event properties.
@@ -15,7 +17,7 @@ visits do not establish purchase intent. It retains the earlier rules for
 unknown business types and repeated genuine clicks. These instructions guide
 the model but do not guarantee every free-form conclusion; check the evidence
 before changing measurement or business priorities.
-The hosted server remains 1.3.0 and npm remains 0.6.0.
+This release pairs hosted server 1.3.1 with npm 0.6.1.
 
 ## Portfolio, affiliate and alerts (1.3.0)
 
