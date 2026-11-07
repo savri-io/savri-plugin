@@ -1,3 +1,23 @@
+## 2026-11-07, Codex: icon prepared for the first Claude directory submission
+
+Aaron ordered the Claude portal submission and escalation of the existing
+connector's ownership. The Claude 1.3.5 source now includes Savri's existing
+512x512 PNG at claude/assets/icon.png, SHA256
+d4bf8b2a3f0c24fa2b2f104bf660b4a39873ae0781d33e385d55105ce4854a99.
+No skill, manifest version, connector URL or existing download archive changed.
+This prepares the first directory listing's icon; it is not a new behavior release.
+The official `claude plugin validate` passes without the previous ICON_MISSING
+warning. The README privacy URL is recognized. The canonical package builder
+in analytics-value now copies the same icon for future releases.
+
+The portal currently shows zero submissions in Aaron's personal Max account.
+Aaron raised whether the Value Unlimited Claude account should be used instead;
+account ownership must be verified before registration or a transfer request.
+The earlier 1.3.5 email was sent at 22:36 CET. The additional escalation is
+prepared but has not been sent. Current send order remains valid.
+Mail evidence: mail/arenden/2026-09-07-anthropic-directory-godkant-publiceringssvar.md.
+At this commit: icon ready for publication; portal registration still pending.
+
 ## 2026-11-07, Codex: release verification and actual publication status
 
 Portable and Claude 1.3.5 are published as source 12cf70d2 and downloadable archives. Both archives match the reviewed build. Claude replaced the existing upload: Value Unlimited, one skill, one connected Savri connector; actual short start and live site read passed. ChatGPT 1.3.5 is In review, estimated 8 November; public and installed 1.3.3 and existing OAuth remain. Codex completes authorized publication and the installed-client check after approval, then closes follow-up 6hwqm5RWWmW3vj4M. Overall delivery is partial until that step.
