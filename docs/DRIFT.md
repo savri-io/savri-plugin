@@ -1,3 +1,11 @@
+## 2026-11-07, Codex: release verification and actual publication status
+
+Portable and Claude 1.3.5 are published as source 12cf70d2 and downloadable archives. Both archives match the reviewed build. Claude replaced the existing upload: Value Unlimited, one skill, one connected Savri connector; actual short start and live site read passed. ChatGPT 1.3.5 is In review, estimated 8 November; public and installed 1.3.3 and existing OAuth remain. Codex completes authorized publication and the installed-client check after approval, then closes follow-up 6hwqm5RWWmW3vj4M. Overall delivery is partial until that step.
+
+The separate Ads import-queue fix was already live and is preserved. The unpublished Ads MCP tool was excluded from this AI release. No repeat of the completed queue work is needed. Future Ads publication must use versions above the now published AI versions.
+
+Evidence: analytics-value/docs/impl/enkel-ai-hjalp-2026-11-07/release/rapport.md. No new recurring monitoring or customer contact.
+
 ## 2026-11-07, Codex: godkänd valfri AI-start
 
 Paketet har synkats från det exakt verifierade AI-releaseurvalet fcb4262196d51efcd08289e64bd22405f3881028.
