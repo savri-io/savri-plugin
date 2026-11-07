@@ -1,6 +1,6 @@
 # Savri analytics plugin
 
-Version 1.3.3 guides you from your first site to installation and a dated check of received visits. Use your own or an authorized client website, hand installation to its developer, or explore the demo. Requires hosted server 1.3.1 or later.
+Version 1.3.5 offers optional, brief help with traffic, visitor sources and popular pages. Ask a normal question to begin. A site that already receives visits leads to reports, including after payment or handover. Installation and code are explained only when requested; otherwise help can be passed to the website maintainer. Requires hosted server 1.3.3 or later.
 
 ![Savri](assets/icon.png)
 
@@ -17,7 +17,7 @@ visits do not establish purchase intent. It retains the earlier rules for
 unknown business types and repeated genuine clicks. These instructions guide
 the model but do not guarantee every free-form conclusion; check the evidence
 before changing measurement or business priorities.
-This release pairs hosted server 1.3.1 with npm 0.6.1.
+This release pairs hosted server 1.3.3 with npm 0.6.3.
 
 ## Portfolio, affiliate and alerts (1.3.0)
 
@@ -58,7 +58,7 @@ controlled tests. Event/page/crawler results are bounded samples with explicit
 limits. Google/Bing report checks are requested only when needed; Bing remains
 personal to the signed-in user.
 
-The three starter prompts cover booking enquiries, sales and content ideas.
+The starter prompts offer examples; a normal question is enough. Start help is optional and does not begin an installation questionnaire.
 The skill continues to a supported business answer and a draft in the host chat
 when requested. Saving business context requires an explicit request and site
 editor/owner plus client write permission. Analysis does not save profiles or

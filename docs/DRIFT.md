@@ -1,3 +1,13 @@
+## 2026-11-07, Codex: godkänd valfri AI-start
+
+Paketet har synkats från det exakt verifierade AI-releaseurvalet fcb4262196d51efcd08289e64bd22405f3881028.
+Portabel och Claude-plugin 1.3.5; Claude byggd från kanonisk skill.
+Kort valfri starthjälp, ingen oombedd kod eller nyinstallation efter mottagna besök.
+Separat Ads/MCP ingår inte. Savri-identitet, Value Unlimited och anslutningar bevaras.
+Publicering och installerade klienter kontrolleras i huvudrapporten:
+`analytics-value/docs/impl/enkel-ai-hjalp-2026-11-07/release/rapport.md`.
+Vid denna commit: paket förberett, distribution och livekontroll återstår.
+
 # Distribution history
 
 ## 2026-11-05, Codex: 1.3.3 published and verified
