@@ -1,3 +1,36 @@
+## 2026-11-07, Codex: ChatGPT published and official Claude submission in review
+
+ChatGPT 1.3.5 was approved and published on Aaron's explicit order around
+23:24 CET. Portal, directory and installed settings confirm 1.3.5 and Value
+Unlimited, with david/Primary OAuth preserved. The actual installed short start
+returned 33 words and one next question, without code/setup questionnaires.
+Task 6hwqm5RWWmW3vj4M is closed. No new archive upload or website deployment.
+
+Claude 1.3.5 was formally submitted around 23:21 CET from the correct Value
+Unlimited Ultra account, valueunlimited007@gmail.com. Submission
+ab674542-9881-40c3-a4b8-4aad831807d7 follows main/claude at 3049e73.
+Validation and security scan passed; current status **In review**. The brand
+match with the existing Savri connector requires ownership review. Listing
+Author is Value Unlimited, portal header by savri-io. No duplicate connector.
+
+Ownership request sent from hello@savri.io to mcp-review@anthropic.com at 23:16,
+acknowledged as ticket **153510044** at 23:17. A short reply with the new plugin
+ID was sent in the same ticket at 23:23; exact sent text/addresses read back.
+Existing connector baa6ade8-0c2d-45c8-bb0b-695e2e5307e4 and users' connections
+must be retained. No early bounces at 23:27. No reason for the missing 1.3.0
+reply or technical rejection was established.
+
+Anthropic now decides review/ownership; Codex completes already-authorized
+publication and checks the official listing/client after approval. Concrete
+remaining task 6hwrV2qfRjv3jG8v, due 9 November. This separate Claude directory
+case does not add a new gate to the previously authorized Ads release.
+
+Icon was already pushed as 3049e73 through publicera.mjs. Canonical builder
+85ae900c and analytics report 09035c8b committed locally. No new temp files.
+Evidence: analytics-value/docs/impl/enkel-ai-hjalp-2026-11-07/release/rapport.md,
+anthropic-portal.json and chatgpt-published-1.3.5.json. Mail details remain in
+mail/arenden/2026-09-07-anthropic-directory-godkant-publiceringssvar.md.
+
 ## 2026-11-07, Codex: icon prepared for the first Claude directory submission
 
 Aaron ordered the Claude portal submission and escalation of the existing
