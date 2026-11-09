@@ -8,10 +8,12 @@ Main, selektiv staging och bevara befintliga mcp.json, ikon och licens.
 
 Portable/Claude **1.3.6** download archives are published from **b4b5ddba**,
 both public downloads HTTP200 and byte-identical to reviewed archives.
-ChatGPT package **1.3.5 is Published**. Existing **Value Unlimited** identity
-and OAuth retained. All37 MCP tools, including Ads, show **Published** after
-9/11 rescan. Package **1.3.6 Draft / Not submitted**: confirmed Submit fails
-with an internal OpenAI server error. Retry same draft when resolved.
+ChatGPT package **1.3.6 is Published**, verified installed **1.3.6 / RELEASED**
+9/11 14:36 CET; new Ads guidance present. Existing **Value Unlimited** identity,
+david/Primary and OAuth retained. All37 MCP tools, including Ads, **Published**.
+Earlier Submit error resolved through ordinary Publish version. Public catalog
+information still shows1.3.5; portal review saysDraft despite publication.
+Do not create or resubmit a duplicate draft for this display inconsistency.
 Remote **1.3.4** and npm **0.6.4** live. Real Grok reads passed in our account.
 Current delivery/task: analytics-value Ads report, **6hwHXq5v8Rg9qFGv**.
 

@@ -1,4 +1,4 @@
-## 2026-11-09, Codex: Ads archives public; ChatGPT MCP published, package submission server error
+## 2026-11-09, Codex: Ads archives and ChatGPT1.3.6 published
 
 Portable/Claude1.3.6 source b4b5ddba and both public ZIPs verified byte for
 byte. Value Unlimited and established package/OAuth identities preserved.
@@ -6,14 +6,16 @@ Remote1.3.4 e1ab0f0f and npm0.6.4 are live; actual own-account Grok reads
 match Norrtelje API/DB. No official Grok listing requested or submitted.
 
 Official ChatGPT portal rescan9/11 14:06CET shows all37 tools Published,
-including savri_get_ads_report. Public package remains1.3.5;1.3.6 Draft
-exists, skill checks pass. Confirmed Submit gives internal server error,
-so no completed submission/publication is claimed. Existing server
-instructions remain Published with a review finding. Retry same draft
-when the portal recovers; task6hwHXq5v8Rg9qFGv carries this concrete rest.
+including savri_get_ads_report. Ordinary Publish version then succeeded for
+1.3.6. Installed settings14:36CET confirm1.3.6/RELEASED, Value Unlimited,
+david/Primary OAuth preserved, new Ads guidance present in installed skill.
+Public catalog information still shows1.3.5, and portal review saysDraft
+despite publication. Earlier Submit server error is historical; do not
+create a duplicate draft. Existing server instructions remain Published
+with an unchanged review finding. No new connector or consent was required.
 Official Claude1.3.5 review/ticket153510044 remains in its separate task.
 Evidence: analytics-value/docs/impl/ads-mcp-2026-11-05/rapport.md and
-release-2026-11-09/openai-check.json. No duplicate connector created.
+release-2026-11-09/openai-published.json. No duplicate connector created.
 
 ## 2026-11-09, Codex: reviewed Ads reporting distribution
 
