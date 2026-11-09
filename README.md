@@ -1,6 +1,10 @@
 # Savri analytics plugin
 
-Version 1.3.5 offers optional, brief help with traffic, visitor sources and popular pages. Ask a normal question to begin. A site that already receives visits leads to reports, including after payment or handover. Installation and code are explained only when requested; otherwise help can be passed to the website maintainer. Requires hosted server 1.3.3 or later.
+Version 1.3.6 offers optional, brief help with traffic, visitor sources and popular pages. Ask a normal question to begin. A site that already receives visits leads to reports, including after payment or handover. Installation and code are explained only when requested; otherwise help can be passed to the website maintainer. Requires hosted server 1.3.4 or later.
+
+## Advertising reports
+
+When the connection exposes `savri_get_ads_report`, it can read saved campaign costs, clicks and matched website goals. This is a restricted reporting pilot: the site needs a separate report grant and approved campaign connections. Reports cover up to 31 account-local days, mark partial totals and retain missing values. Form events are not unique leads, verified sales or Google-reported conversions. It cannot read search terms, ads or bids, change campaigns, or upload conversions.
 
 ![Savri](assets/icon.png)
 
@@ -17,7 +21,7 @@ visits do not establish purchase intent. It retains the earlier rules for
 unknown business types and repeated genuine clicks. These instructions guide
 the model but do not guarantee every free-form conclusion; check the evidence
 before changing measurement or business priorities.
-This release pairs hosted server 1.3.3 with npm 0.6.3.
+This release pairs hosted server 1.3.4 with npm 0.6.4.
 
 ## Portfolio, affiliate and alerts (1.3.0)
 
@@ -27,8 +31,8 @@ explicit selections across authorized sites, saved business context, affiliate
 commission/matching/coverage and requested alert previews or changes. A domain,
 sales objective or platform alone does not classify a site as merchant e-commerce.
 
-The corresponding remote 1.3.0 and npm 0.6.0 expose 36 tools. The six additions
-since the previously distributed package are `savri_get_affiliate_report` and
+This release exposes 37 tools through remote 1.3.4 and npm 0.6.4, including
+`savri_get_ads_report`, `savri_get_affiliate_report` and
 `savri_get_alerts`, `savri_preview_alert`, `savri_save_alert`,
 `savri_disable_alert`, `savri_delete_alert`. Discover actual installed tools;
 missing tools mean unavailable client functionality, not zero activity.

@@ -1,6 +1,6 @@
 # Savri for Claude
 
-Version 1.3.5 offers optional, brief help with traffic, visitor sources and popular pages. Ask a normal question to begin. A site that already receives visits leads to reports, including after payment or handover. Installation and code are explained only when requested; otherwise help can be passed to the website maintainer. Requires hosted server 1.3.3 or later.
+Version 1.3.6 offers optional, brief help with traffic, visitor sources and popular pages. Ask a normal question to begin. A site that already receives visits leads to reports, including after payment or handover. Installation and code are explained only when requested; otherwise help can be passed to the website maintainer. Requires hosted server 1.3.4 or later.
 
 Use Savri to check your website's measurement, understand booking interest
 and sales, choose content from actual site and search data, and draft an
@@ -9,7 +9,7 @@ skill and uses the existing Savri connector with your own account.
 
 ## Install and connect
 
-Download [Savri for Claude 1.3.5 (ZIP)](https://raw.githubusercontent.com/savri-io/savri-plugin/main/releases/savri-claude-plugin-1.3.5.zip).
+Download [Savri for Claude 1.3.6 (ZIP)](https://raw.githubusercontent.com/savri-io/savri-plugin/main/releases/savri-claude-plugin-1.3.6.zip).
 On claude.ai, open **Customize > Plugins > Add > Upload plugin** and select
 that ZIP. Open the plugin's **Connectors** tab and connect Savri through
 the normal sign-in flow. If you already use the Savri directory connector,
@@ -80,3 +80,7 @@ Review [Savri's privacy policy](https://savri.io/privacy) and the data
 settings of your Claude account before connecting. MIT licensed;
 hosted use follows [Savri's terms](https://savri.io/terms).
 Support: [hello@savri.io](mailto:hello@savri.io).
+
+## Advertising reports
+
+When the connection exposes `savri_get_ads_report`, it can read saved campaign costs, clicks and matched website goals. This is a restricted reporting pilot: the site needs a separate report grant and approved campaign connections. Reports cover up to 31 account-local days, mark partial totals and retain missing values. Form events are not unique leads, verified sales or Google-reported conversions. It cannot read search terms, ads or bids, change campaigns, or upload conversions.

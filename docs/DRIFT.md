@@ -1,3 +1,9 @@
+## 2026-11-09, Codex: reviewed Ads reporting distribution
+
+Prepared from exact tested source 6372ed2292655ce130369f7a70ef2b0cc36f1bbb. Remote 1.3.4, npm 0.6.4 and portable/Claude 1.3.6 add savri_get_ads_report, with existing read scope and site-specific report grants. 370 checks and production build passed. Value Unlimited, package identity, OAuth configuration and optional start guidance are retained.
+
+The separate unpublished security package is excluded. Aaron authorized this scoped release on 7/11 and resumed it on 9/11. Existing ChatGPT 1.3.5 is published; Claude directory ownership/review remains separate. Actual publication and client evidence: analytics-value/docs/impl/ads-mcp-2026-11-05/rapport.md.
+
 ## 2026-11-07, Codex: ChatGPT published and official Claude submission in review
 
 ChatGPT 1.3.5 was approved and published on Aaron's explicit order around

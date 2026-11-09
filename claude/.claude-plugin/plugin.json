@@ -1,7 +1,7 @@
 {
   "name": "savri",
   "displayName": "Savri",
-  "version": "1.3.5",
+  "version": "1.3.6",
   "description": "Understand website traffic, visitor sources and popular pages with Savri. Optional, brief start help answers one question at a time; technical setup help is available when requested.",
   "author": {
     "name": "Value Unlimited",

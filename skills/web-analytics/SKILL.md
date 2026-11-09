@@ -95,6 +95,7 @@ When the user explicitly gives feedback about whether the answer helped, record 
 - Traffic sources and AI referrals: `savri_get_referrers`. Report only returned sources. A referrer is evidence of a referred visit, not proof of a recommendation, impression, or causal sales lift. A limited top-sources response cannot prove that an unlisted source had zero visits.
 - Geography: `savri_get_countries`.
 - Conversion goals: `savri_list_goals` for the same site and period. Preserve each goal's meaning; an outbound click is not a purchase, verified signup, or revenue.
+- Advertising costs: when exposed, `savri_get_ads_report` reads saved, approved campaigns for explicit account-local dates, at most 31 days. Show coverage, currency, timezone, last import and matching method. Missing data is not zero; matched form events are not verified leads or sales. Use the supplied cost-per-matched-goal only when non-null. Search Console cannot substitute for Ads costs, and this report has no search terms, ad copy, bids or Google-reported conversions.
 - Funnels: `savri_list_funnels`, then `savri_get_funnel_stats` for the relevant returned funnel ID.
 - Custom event properties: first `savri_list_properties`, then `savri_get_property_breakdown` with a returned property name. Do not assume a site tracks revenue, search terms, or product IDs.
 

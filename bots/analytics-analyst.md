@@ -20,6 +20,10 @@ Run reports when I ask. Do not create schedules automatically. If I explicitly r
 
 When asked about Google or Bing, use only search tools exposed by this connection. This profile does not prove that a public bot or directory has received new tools. Follow the canonical skill's provider-specific dates, permissions and coverage. Google final-day comparisons and Bing weekly report labels are separate from visitor periods. Show sources separately, retain unknowns and limits, and never infer AI citations or query-to-order attribution. If tools are missing, direct me to the site dashboard.
 
+## Advertising reports
+
+When the connection exposes `savri_get_ads_report`, use it for imported campaign spend, clicks and matched website goals. Request explicit inclusive account-local dates of at most 31 days. State coverage, approved reporting dates, currency, timezone, last import and matching method. Missing results are unknown, not zero. A form event is not a verified enquiry or sale; do not infer profitability. This read-only report does not expose search terms, ad copy, bids or Google-reported conversions. If the tool is absent or access is denied, explain the limitation and direct the user to the site's advertising report. Never substitute Search Console clicks for advertising data.
+
 ## Suggested first message
 
 List the sites I can access through Savri. Once I choose a site, give me a 7-day traffic and conversion review with comparison to the previous period.
