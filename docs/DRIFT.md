@@ -1,3 +1,20 @@
+## 2026-11-09, Codex: Ads archives public; ChatGPT MCP published, package submission server error
+
+Portable/Claude1.3.6 source b4b5ddba and both public ZIPs verified byte for
+byte. Value Unlimited and established package/OAuth identities preserved.
+Remote1.3.4 e1ab0f0f and npm0.6.4 are live; actual own-account Grok reads
+match Norrtelje API/DB. No official Grok listing requested or submitted.
+
+Official ChatGPT portal rescan9/11 14:06CET shows all37 tools Published,
+including savri_get_ads_report. Public package remains1.3.5;1.3.6 Draft
+exists, skill checks pass. Confirmed Submit gives internal server error,
+so no completed submission/publication is claimed. Existing server
+instructions remain Published with a review finding. Retry same draft
+when the portal recovers; task6hwHXq5v8Rg9qFGv carries this concrete rest.
+Official Claude1.3.5 review/ticket153510044 remains in its separate task.
+Evidence: analytics-value/docs/impl/ads-mcp-2026-11-05/rapport.md and
+release-2026-11-09/openai-check.json. No duplicate connector created.
+
 ## 2026-11-09, Codex: reviewed Ads reporting distribution
 
 Prepared from exact tested source 6372ed2292655ce130369f7a70ef2b0cc36f1bbb. Remote 1.3.4, npm 0.6.4 and portable/Claude 1.3.6 add savri_get_ads_report, with existing read scope and site-specific report grants. 370 checks and production build passed. Value Unlimited, package identity, OAuth configuration and optional start guidance are retained.
